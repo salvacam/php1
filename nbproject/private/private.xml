@@ -3,14 +3,13 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Program%20Files/Apache%20Software%20Foundation/Apache2.2/htdocs/tema02/php1/index.php</file>
-            <file>file:/C:/Program%20Files/Apache%20Software%20Foundation/Apache2.2/htdocs/tema02/php1/clases/Leer.php</file>
-            <file>file:/C:/Program%20Files/Apache%20Software%20Foundation/Apache2.2/htdocs/tema02/php1/lectura.php</file>
-            <file>file:/C:/Program%20Files/Apache%20Software%20Foundation/Apache2.2/htdocs/tema02/php1/procesarSubir.php</file>
-            <file>file:/C:/Program%20Files/Apache%20Software%20Foundation/Apache2.2/htdocs/tema02/php1/subirArchivo_1.php</file>
-            <file>file:/C:/Program%20Files/Apache%20Software%20Foundation/Apache2.2/htdocs/tema02/php1/procesarSubir_1.php</file>
-            <file>file:/C:/Program%20Files/Apache%20Software%20Foundation/Apache2.2/htdocs/tema02/php1/clases/Configuracion.php</file>
-            <file>file:/C:/Program%20Files/Apache%20Software%20Foundation/Apache2.2/htdocs/tema02/php1/clases/Subir.php</file>
+            <file>file:/var/www/html/tema02/php1/procesarSubir_1.php</file>
+            <file>file:/var/www/html/tema02/php1/procesarSubir.php</file>
+            <file>file:/var/www/html/tema02/php1/subirArchivo_1.php</file>
+            <file>file:/var/www/html/tema02/php1/clases/Leer.php</file>
+            <file>file:/var/www/html/tema02/php1/clases/Subir.php</file>
+            <file>file:/var/www/html/tema02/php1/clases/Configuracion.php</file>
+            <file>file:/var/www/html/tema02/php1/subirArchivo.php</file>
         </group>
     </open-files>
 </project-private>

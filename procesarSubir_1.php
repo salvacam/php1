@@ -21,14 +21,49 @@
         }
 
         $destino = Leer::post("destino");
-        echo $subir->getDestino() . "<br/>";
+        //echo "Destino: $destino <br/>";
         if ($destino !== NULL && $destino !== "") {
-            $subir->getDestino($destino);
-            echo $subir->getDestino() . "<br/>";
+            $subir->setDestino($destino);
+            //echo $subir->getDestino() . "<br/>";
         }
         
-        $subir->subir();
-        echo($subir->getMensajeError());
+        $carpeta = Leer::post("radioCrear");
+        if ($carpeta === "si") {
+            $subir->setCrearCarpeta("TRUE");
+        }
+              
+
+        $politica = Leer::post("radio");
+        //echo "radio: " . $radio;
+        if ($politica == null) {
+            echo "Debes seleccionar una opcion <br/> Reemplazar o renombrar";
+            //exit();
+        } else {
+            //echo "$politica <br/>";
+            if ($politica==="renombrar") {
+                $subir->setAccion("1");
+            } else if ($politica==="reemplazar") {
+                $subir->setAccion("2");
+            }
+
+            //probar extensiones
+            $subir->addExtension("txt");
+            /*$subir->addExtension("log");
+            $subir->addExtension("bat");
+            $subir->addExtension("pdf");*/
+            
+            //probar tipos
+            //  $tipos = $subir->getTipo();
+            //echo "Tipos: $tipos";
+            
+            $subir->addTipo("text/plain");
+            $subir->addTipo("text/html");
+            $subir->addTipo("application/acad");            
+            //echo "Tipos: $tipos";
+            
+            $subir->subir();
+            echo($subir->getMensajeError());
+        }
         ?>
     </body>
 </html>

@@ -12,6 +12,12 @@
             <br /><input type="text" id="text" name="destino" value="" />
             <label for="text">Destino del archivo</label>
             <br />
+            <input type="radio" id="crear1" name="radioCrear" value="no" 
+                   checked="checked" >
+            <label for="radio1">No Crear Carpeta</label>
+            <input type="radio" id="crear2" name="radioCrear" value="si">
+            <label for="radio2">Si Crear Carpeta</label>
+            <br />
             <br />
             <input type = "file" name = "archivo" />  
             <br />

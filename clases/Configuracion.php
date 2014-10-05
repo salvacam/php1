@@ -1,6 +1,5 @@
 <?php
 
 class Configuracion {
-    const PERMISOS = 0777;
-    
+    const PERMISOS = 0777;    
 }
